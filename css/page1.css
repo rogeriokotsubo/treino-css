@@ -1,4 +1,12 @@
 @charset "UTF-8";
+
+@font-face {
+  font-family: 'Amazon Ember';
+  src: url(../fonts/amazon-ember-regular-webfont.woff) format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -165,8 +173,8 @@ main {
   gap: 0.8vw;
 }
 #pag-de-total{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 2vh;
+  font-family: "Amazon Ember";
+  font-size: 3vh;
   color: #535353;
 }
 #traco-rodape{
