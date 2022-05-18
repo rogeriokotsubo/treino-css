@@ -50,6 +50,8 @@ main {
   flex: 1;
   font-family: 'Calibri, Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
+
+/* Navbar */
 #nav1{
   flex: 1;
   display: flex;
@@ -67,7 +69,7 @@ main {
   flex: 0.1;
   background-color: #212227;
 }
-#ctn-vazio1{
+#ctn-void1{
   flex: 0.5;
   background-color: #212227;
 }
@@ -78,12 +80,15 @@ main {
   background-color: #212227;
   justify-content: space-around;
 }
-.ativo1{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+li {
+  list-style: none;
+}
+.span-menu-active{
   color:white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.4rem;
 }
-.inativo1{
+.span-menu{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:#58595b;
   font-size: 1.4rem;
@@ -91,6 +96,9 @@ main {
 .span-menu:hover{
   color:white;
 }
+
+/* Container main -> separador - imagens - rodape */
+
 #container-main{
   height: 91vh;
   flex: 11;
@@ -98,16 +106,17 @@ main {
   flex-direction: column;
   background-color: #212227;
 }
-#separador{
+
+#separator{
   height: 0.1vh;
   background: #d8a068;
 }
-#container-imagens{
+#container-images{
   margin-top: 5vh;;
   flex: 9;
   display: flex;
 }
-#container-rodape{
+#container-footer{
   flex: 0.9;
   display: flex;
   justify-content: space-between;
@@ -118,23 +127,29 @@ main {
   font-size: 10vh;
   text-align: left;
 }
-#ctn-texto{
+#ctn-text{
   flex: 2;
   display: flex;
   justify-content: space-around;
 }
-#ctn-imagens{
+
+/*container images*/
+#ctn-images{
   flex: 4;
   display: flex;
   justify-content: space-between;
 }
-#container-texto{
+
+/*container texto*/
+#container-text{
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   gap: 3vh;
 }
+
+/*elementos  container texto*/
 #txt-item{
   color:white;
   font-size: 2vh;
@@ -148,7 +163,7 @@ main {
   gap: 2vw;
   margin-left: 0.5vw;;
 }
-#traco{
+#trace{
   height: 0.3vh;
   width: 2vw;
   background: #d8a068;
@@ -160,29 +175,55 @@ main {
   font-weight: 600;
   text-align: left;
 }
-#quadrados{
+
+/* elementos container footer */
+#ctn-squares{
+  display: flex;
+  align-items: center;
+  margin-left: 2vw;
+  gap: 1.5vw;
+}
+.square-white{
+  width: 10px;
+  height: 10px;
+  background-color: #c4c4c4;
+}
+.square-orange{
+  width: 15px;
+  height: 15px;
+  background-color: #d8a068;
+}  
+.square-white{
+  transition: 0.2s;
+}
+.square-white:hover{
+  width: 15px;
+  height: 15px;
+}
+.square-orange{
+  transition: 0.2s;
+}
+.square-orange:hover{
+  width: 20px;
+  height: 20px;
+}
+#pages{
   display: flex;
   align-items: center;
   margin-left: 2vw;
   gap: 0.8vw;
 }
-#paginas{
-  display: flex;
-  align-items: center;
-  margin-left: 2vw;
-  gap: 0.8vw;
-}
-#pag-de-total{
+#page-of-total{
   font-family: "Amazon Ember";
   font-size: 3vh;
   color: #535353;
 }
-#traco-rodape{
+#trace-footer{
   height: 0.1vh;
   width: 3vw;
   background: #d8a068;
 }
-#sinal-maior{
+#signal-gt{
   margin-top: 0.5vh;
   margin-right: 3vw;
 }

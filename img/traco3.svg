@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 27" width="43" height="27">
+	<title>traco3</title>
+	<defs>
+		<image  width="43" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAbBAMAAAAXCWteAAAAAXNSR0IB2cksfwAAACpQTFRFISInLS4yfn5+hISEeHh4Jygta2ttWVlba2xtd3h5d3d4a2tsWFlcd3d5grjtFQAAADhJREFUeJxjYBh0QMgYCkxQhMPSoCCdLq7onIkEpsGFs1YhgdV0ccmJDiTQDhe+bIwEbOniEkoBAEajIkcjnulgAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
